@@ -150,11 +150,12 @@ increaseBtn.addEventListener("click", ()=>{
 })
 
 decreaseBtn.addEventListener("click", ()=>{
-    if(quantity === 0){
-        return;
+    
+    if(quantity > 1){
+        quantity = parseInt(quantity) - 1;
+        quantitySpan.innerHTML = `${quantity}`;
     }
-    quantity = parseInt(quantity) - 1;
-    quantitySpan.innerHTML = `${quantity}`;
+    
 })
 
 // Calculate discount
