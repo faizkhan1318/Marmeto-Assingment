@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <!-- REPLACE THIS WITH YOUR PROJECT NAME. EXAMPLE - Category tabs -->
+    <title>Marmeto-Assingment</title>
+
+</head>
+
+<body>
+    <!-- Your code goes here -->
+    <div id="container">
+        <div id="image-container">
+            <div id="product-image">
+                <img src="assets/Rectangle 4.png"
+                    alt="image1">
+            </div>
+            <div id="thumbnail-images" class="thumbnail-images">
+                
+            </div>
+        </div>
+
+        <div id="product-details">
+            <div id="vendor" class="vendor">
+            </div>
+            <div id="title" class="title">
+            </div>
+            <hr class="horizontalRule" />
+
+            <div class="price">
+                <div class="price-container">
+                    <span id="price"></span>
+                    <span id="discount">35% off</span>
+                </div>
+                <div id="striked-price" class="striked-price">
+                </div>
+            </div>
+            <hr class="horizontalRule" />
+
+            <div id="color">
+                <p>Choose a Colour</p>
+                <div id="colours">
+
+                </div>
+            </div>
+            <hr class="horizontalRule" />
+
+            <div id="size">
+                <p>Choose a size</p>
+                <span>
+                    <input type="radio" class="chooseSize" name="chooseASize" id="Small" value="Small"> Small
+                </span>
+                <span>
+                    <input type="radio" class="chooseSize" name="chooseASize" id="Medium" value="Medium"> Medium
+                </span>
+                <span>
+                    <input type="radio" class="chooseSize" name="chooseASize" id="Large" value="Large"> Large
+                </span>
+                <span>
+                    <input type="radio" class="chooseSize" name="chooseASize" id="Extra Large" value="Extra Large">
+                    Extra Large
+                </span>
+                <span>
+                    <input type="radio" class="chooseSize" name="chooseASize" id="XXL" value="XXL"> XXL
+                </span>
+            </div>
+
+            <div id="cart-container">
+                <div class="quantity">
+                    <button id="decrementBtn">-</button>
+                    <span id="countValue">1</span>
+                    <button id="incrementBtn">+</button>
+                </div>
+                <div class="add-to-cart">
+                    <button id="addToCartBtn">Add to cart</button>
+                </div>
+            </div>
+            <div id="message" class="displayNone">Embrace Sideboard with Color Yellow and Size Small added to cart</div>
+            <hr class="horizontalRule" />
+
+            <div id="description">
+            </div>
+
+
+        </div>
+
+    </div>
+    <!-- Happy coding 😊 -->
+    <script src="./script.js"></script>
+</body>
+
+</html>
